@@ -2270,3 +2270,106 @@ Responsive
 	background: #111;
 	transform: translateY(-5px);
 }
+
+/* ============================================
+   TALENT PROFILE SECTIONS (talents.php)
+   Split layout: photo col | info col
+============================================ */
+
+.talent-profile-section {
+	overflow: hidden;
+}
+
+.talent-photo-col {
+	overflow: hidden;
+	display: flex;
+	flex-shrink: 0;
+}
+
+.talent-photo-col img {
+	width: 100%;
+	flex: 1;
+	object-fit: cover;
+	object-position: center top;
+	display: block;
+}
+
+.talent-info-col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 80px;
+}
+
+.talent-info-col .character-info {
+	width: 100%;
+	max-width: 520px;
+}
+
+/* On sec-white, text is dark */
+.sec-white .talent-info-col .character-info h2,
+.sec-white .talent-info-col .character-info h5 {
+	color: #111111;
+}
+
+.sec-white .talent-info-col .character-info p {
+	color: #555555;
+}
+
+/* On sec-dark, text is light */
+.sec-dark .talent-info-col .character-info h2,
+.sec-dark .talent-info-col .character-info h5 {
+	color: #f0f0f0;
+}
+
+.sec-dark .talent-info-col .character-info p {
+	color: #aaaaaa;
+}
+
+.sec-white .cp-item h4 {
+	color: #555;
+}
+
+/* Red accent border on the split */
+.talent-profile-section .col-lg-6.talent-photo-col {
+	border-right: 3px solid #be1e2d;
+}
+
+.talent-reverse .col-lg-6.talent-photo-col {
+	border-right: none;
+	border-left: 3px solid #be1e2d;
+}
+
+@media (max-width: 991px) {
+	.talent-info-col {
+		padding: 50px 40px;
+		justify-content: flex-start;
+	}
+
+	.talent-info-col .character-info {
+		max-width: 100%;
+	}
+
+	/* Mobile: show full image, no cropping */
+	.talent-photo-col {
+		width: 100%;
+		display: block;
+	}
+
+	.talent-photo-col img {
+		width: 100%;
+		height: auto;
+		object-fit: unset;
+		flex: unset;
+	}
+
+	.talent-profile-section .col-lg-6.talent-photo-col,
+	.talent-reverse .col-lg-6.talent-photo-col {
+		border: none;
+	}
+
+	/* On mobile, always show photo on top, text below */
+	.talent-reverse {
+		flex-direction: column-reverse;
+	}
+}

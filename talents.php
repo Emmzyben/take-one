@@ -28,12 +28,14 @@ include 'includes/header.php';
 	</section>
 
 	<!-- Section 2: DARK — Talent 1 -->
-	<section class="characters-section character-one sec-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7">
+	<section class="talent-profile-section sec-dark">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters align-items-stretch">
+				<div class="col-lg-6 talent-photo-col">
+					<img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" alt="Adaeze Nwosu">
+				</div>
+				<div class="col-lg-6 talent-info-col">
 					<div class="character-info">
-						
 						<h2>Adaeze Nwosu</h2>
 						<h5>Speciality: Lead Drama &amp; Film</h5>
 						<h5>Industry: Film, TV &amp; Stage</h5>
@@ -56,19 +58,15 @@ include 'includes/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="character-img" style="position: absolute; right: 0; bottom: 0; height: 100%; width: 45%; overflow: hidden;">
-				<img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" alt="Adaeze Nwosu" style="width: 100%; height: 100%; object-fit: cover; object-position: center top;">
-			</div>
 		</div>
 	</section>
 
 	<!-- Section 3: WHITE — Talent 2 -->
-	<section class="characters-section character-two sec-white">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 offset-lg-5">
+	<section class="talent-profile-section sec-white">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters align-items-stretch talent-reverse">
+				<div class="col-lg-6 talent-info-col">
 					<div class="character-info">
-						
 						<h2>Chukwuemeka Obi</h2>
 						<h5>Speciality: Action &amp; Commercial</h5>
 						<h5>Industry: Film &amp; Advertising</h5>
@@ -90,20 +88,22 @@ include 'includes/header.php';
 						<a href="contact.php" class="site-btn">Book / Enquire</a>
 					</div>
 				</div>
-			</div>
-			<div class="character-img" style="position: absolute; left: 0; bottom: 0; height: 100%; width: 45%; overflow: hidden;">
-				<img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=800&auto=format&fit=crop" alt="Chukwuemeka Obi" style="width: 100%; height: 100%; object-fit: cover; object-position: center top;">
+				<div class="col-lg-6 talent-photo-col">
+					<img src="https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=800&auto=format&fit=crop" alt="Chukwuemeka Obi">
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Section 4: DARK — Talent 3 -->
-	<section class="characters-section character-three sec-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7">
+	<section class="talent-profile-section sec-dark">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters align-items-stretch">
+				<div class="col-lg-6 talent-photo-col">
+					<img src="https://images.unsplash.com/photo-1567532939604-b6c5b0adcc2c?q=80&w=800&auto=format&fit=crop" alt="Ngozi Eze-Williams">
+				</div>
+				<div class="col-lg-6 talent-info-col">
 					<div class="character-info">
-						
 						<h2>Ngozi Eze-Williams</h2>
 						<h5>Speciality: Drama &amp; TV Presenting</h5>
 						<h5>Industry: TV, Film &amp; Digital</h5>
@@ -126,19 +126,15 @@ include 'includes/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="character-img" style="position: absolute; right: 0; bottom: 0; height: 100%; width: 45%; overflow: hidden;">
-				<img src="https://images.unsplash.com/photo-1567532939604-b6c5b0adcc2c?q=80&w=800&auto=format&fit=crop" alt="Ngozi Eze-Williams" style="width: 100%; height: 100%; object-fit: cover; object-position: center top;">
-			</div>
 		</div>
 	</section>
 
 	<!-- Section 5: WHITE — Talent 4 -->
-	<section class="characters-section character-four sec-white">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 offset-lg-5">
+	<section class="talent-profile-section sec-white">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters align-items-stretch talent-reverse">
+				<div class="col-lg-6 talent-info-col">
 					<div class="character-info">
-						
 						<h2>Tobi Adeyemo</h2>
 						<h5>Speciality: Comedy &amp; Drama</h5>
 						<h5>Industry: Film, TV &amp; Theatre</h5>
@@ -160,9 +156,9 @@ include 'includes/header.php';
 						<a href="contact.php" class="site-btn">Book / Enquire</a>
 					</div>
 				</div>
-			</div>
-			<div class="character-img" style="position: absolute; left: 0; bottom: 0; height: 100%; width: 45%; overflow: hidden;">
-				<img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=800&auto=format&fit=crop" alt="Tobi Adeyemo" style="width: 100%; height: 100%; object-fit: cover; object-position: center top;">
+				<div class="col-lg-6 talent-photo-col">
+					<img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=800&auto=format&fit=crop" alt="Tobi Adeyemo">
+				</div>
 			</div>
 		</div>
 	</section>
